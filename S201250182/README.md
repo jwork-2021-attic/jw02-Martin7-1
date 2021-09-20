@@ -2,7 +2,7 @@
 
 ## 任务0：example的可视化
 
-<a href="https://asciinema.org/a/436647" target="_blank"><img src="../../../../../../../Typora Image/436647-163215777334210.svg" /></a>
+<a href="https://asciinema.org/a/436647" target="_blank"><img src="https://asciinema.org/a/436647.svg" /></a>
 
 
 
@@ -32,7 +32,7 @@
 
 [![asciicast](https://asciinema.org/a/436842.svg)](https://asciinema.org/a/436842)
 
-<a href="https://asciinema.org/a/436842" target="_blank"><img src="../../../../../../../Typora Image/436842-16321576303706.svg" /></a>
+[![asciicast](436842.svg)](https://asciinema.org/a/436842)
 
 类图
 
