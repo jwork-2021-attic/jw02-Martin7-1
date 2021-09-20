@@ -2,7 +2,7 @@
 
 ## 任务0：example的可视化
 
-[![asciicast](D:\Typora Image\436647.svg)](https://asciinema.org/a/436647)
+<a href="https://asciinema.org/a/436647" target="_blank"><img src="../../../../../../../Typora Image/436647-16321576517778.svg" /></a>
 
 
 
@@ -30,9 +30,9 @@
 
 ## 任务2：
 
-[![asciicast](../../../../../../../Typora Image/436842.svg)](https://asciinema.org/a/436842)
+[![asciicast](https://asciinema.org/a/436842.svg)](https://asciinema.org/a/436842)
 
-
+<a href="https://asciinema.org/a/436842" target="_blank"><img src="../../../../../../../Typora Image/436842-16321576303706.svg" /></a>
 
 类图
 

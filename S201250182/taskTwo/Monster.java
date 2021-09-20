@@ -1,6 +1,6 @@
 package S201250182.taskTwo;
 
-import W02.S201250182.taskTwo.Line.Position;
+import S201250182.taskTwo.Line.Position;
 
 /**
  * @author Zyi
