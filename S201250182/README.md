@@ -2,7 +2,7 @@
 
 ## 任务0：example的可视化
 
-<a href="https://asciinema.org/a/436647" target="_blank"><img src="../../../../../../../Typora Image/436647-16321576517778.svg" /></a>
+<a href="https://asciinema.org/a/436647" target="_blank"><img src="../../../../../../../Typora Image/436647-163215777334210.svg" /></a>
 
 
 
