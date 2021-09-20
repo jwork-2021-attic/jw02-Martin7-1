@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Geezer
+actor Sorter
+actor Line
+database Gourd
+collections log
+
+
+Gourd -> Line:放七个葫芦在队列里
+
+Geezer -> Geezer: 叫老爷爷出来
+Geezer -> Sorter: 老爷爷选择排序的方法
+Geezer -> Line: 按从大到小排好队！
+Geezer -> log: 将排好队的信息放到log中
+
+
+@enduml
