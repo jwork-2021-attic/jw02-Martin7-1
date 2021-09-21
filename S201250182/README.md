@@ -28,9 +28,15 @@
 
 
 
-## 任务2：
+### example的可改进之处
 
-[![asciicast](https://asciinema.org/a/436842.svg)](https://asciinema.org/a/436842)
+1. **成员变量**和**成员方法**可以分离。
+2. 枚举类`Gourd`不适合扩展，像作业要扩展成256个的话就不适合用枚举类了。
+3. `Color`可以单独出来创建一个对象，然后与`Gourd`组合起来。
+
+
+
+## 任务2：
 
 [![asciicast](436842.svg)](https://asciinema.org/a/436842)
 
@@ -41,4 +47,10 @@
 
 
 ## 任务3：
+
+[![asciicast](437051.svg)](https://asciinema.org/a/437051)
+
+类图
+
+![img](http://www.plantuml.com/plantuml/png/VLFDYjH04BxtKzJD7nZddXsMTJmimYx8Hhs8XqgcpOJjT8VkZgu4mOKLl0WUnCE2Pnz0147mQNQPUGmhgSgOuBAdhf-llg-gKZa84NriAgFkh6EiGpAVrmPj5tcGksgU6mnXjYgny5WfrRkmRBBCwDJvgBs4KekdMknZZBuy4-U92sKidLMb9VGhp3KSbHQfVXIPK1qx6_vvZvnn_YPTrKi2kDaCX221xVdbzUUFiAyu0FSfEQvA1BcvlBZwzNxp_LCYD0i2Sjy9N7_uiJt_GYGSw7FISm9NVxvjVtwbfBJPwmz39flV5wmlfPCaI7PKEsOMOzVQ5CUB675CjmMjwW6Gz_iQDA4UhHyysbEb2XrFoBXxhxC687lFqJIQpEXIQjyMP8O9vfsQV6DeTqelNkwqWb9r4vbnIXRTG-_nxPXeg2SgMG0OVbMdBJ6k-E-4e1ttTzj4asevZbOPXwjkHlAbsA2CERqumHC5pOcA1uAQq6eWoNRGZl4DrhSIyzMrYj-urhsXH2d8YLFXKqdnf-0ysRGZ_QoJgD47BUpwJETDv757luzq3dwlVmf-iZsLwhWuAaDSFBPH5zhlWo-oVkqdXqjYMUDhdMAbsUlkXfz3VfOiTA3jggdCNm00)
 
