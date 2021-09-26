@@ -1,4 +1,4 @@
-package S201250182.taskThree;
+package W02.S201250182.taskThree;
 
 /**
  * @class 蛇精类。指挥256个小怪来排序
@@ -65,6 +65,8 @@ public class Snake {
 
     private void execute(String step, Monster[] monsters) {
         String[] couple = step.split("<->");
+        couple[0] = couple[0].trim();
+        couple[1] = couple[1].trim();
         Monster monsterOne = null;
         Monster monsterTwo = null;
 

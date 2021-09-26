@@ -1,4 +1,4 @@
-package S201250182.taskTwo;
+package W02.S201250182.taskTwo;
 
 /**
  * @class 蛇精类。指挥256个小怪来排序

@@ -1,4 +1,4 @@
-package S201250182.taskTwo;
+package W02.S201250182.taskTwo;
 
 /**
  * @author Zyi
@@ -42,11 +42,11 @@ public class Line {
 
     @Override
     public String toString() {
-        String lineString = "\t";
+        StringBuilder lineString = new StringBuilder();
         for (Position p : positions) {
-            lineString += p.linable.toString();
+            lineString.append(p.linable.toString());
         }
-        return lineString;
+        return lineString.toString();
     }
 
     public Linable[] toArray() {

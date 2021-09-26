@@ -1,4 +1,4 @@
-package S201250182.taskThree;
+package W02.S201250182.taskThree;
 
 /**
  * @interface 排序类。拥有排序的部分共性

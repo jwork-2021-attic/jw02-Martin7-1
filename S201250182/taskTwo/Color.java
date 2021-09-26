@@ -1,4 +1,4 @@
-package S201250182.taskTwo;
+package W02.S201250182.taskTwo;
 
 import java.util.*;
 
@@ -7,6 +7,7 @@ import java.util.*;
  * @author Zyi
  * @create 2021/9/20 0:10
  */
+@SuppressWarnings("JavaDoc")
 public class Color {
 
     private int r;
@@ -15,8 +16,15 @@ public class Color {
     private static Set<List<Integer>> rgb = new HashSet<>();
 
     public Color() {
-        // 按一定规律为256只小怪分配颜色
+        // 随机分配颜色
         setRGB();
+    }
+
+    public Color(int rank) {
+        // 按一定规律为64只小怪分配颜色
+        this.r = 256 - rank * 4;
+        this.g = rank * 4;
+        this.b = rank * 4;
     }
 
     public void setRGB() {

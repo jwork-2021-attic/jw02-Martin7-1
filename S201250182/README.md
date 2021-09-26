@@ -38,7 +38,7 @@
 
 ## 任务2：
 
-[![asciicast](https://asciinema.org/a/436842.svg)](https://asciinema.org/a/436842)
+[![asciicast](https://asciinema.org/a/438146.svg)](https://asciinema.org/a/438146)
 
 类图
 
@@ -48,7 +48,7 @@
 
 ## 任务3：
 
-[![asciicast](https://asciinema.org/a/437051.svg)](https://asciinema.org/a/437051)
+[![asciicast](https://asciinema.org/a/438145.svg)](https://asciinema.org/a/438145)
 
 类图
 

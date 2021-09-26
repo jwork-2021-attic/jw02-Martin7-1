@@ -1,6 +1,6 @@
-package S201250182.taskThree;
+package W02.S201250182.taskThree;
 
-import S201250182.taskThree.Matrix.Position;
+import W02.S201250182.taskThree.Matrix.Position;
 
 /**
  * @author Zyi

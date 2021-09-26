@@ -1,4 +1,4 @@
-package S201250182.taskTwo;
+package W02.S201250182.taskTwo;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -29,7 +29,7 @@ public class Scene {
                     randomRank = random.nextInt(64) + 1;
                 }
             }
-            Monster monster = new Monster(new Color(), rank);
+            Monster monster = new Monster(new Color(rank), rank);
             line.put(monster, 64 - rank);
             monsters[i] = monster;
         }

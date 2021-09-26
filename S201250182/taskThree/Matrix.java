@@ -1,4 +1,4 @@
-package S201250182.taskThree;
+package W02.S201250182.taskThree;
 
 /**
  * @class matrix: 将64个小怪按8x8排列
