@@ -1,0 +1,79 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class BubbleSorter
+class Geezer
+class Line
+class Position
+interface Linable
+interface Sorter
+
+Geezer  o--  Sorter: 聚合 >
+Sorter *-- BubbleSorter: Sorter的一种:
+Geezer o-- Linable: 关联 7 >
+Linable *-- Line: Linable的一种
+Line o-- Position: 组合 >
+Gourd o-- Linable: Linable的一种 >
+
+enum Gourd {
+int r
+int g
+int b
+Position position
+
+getGourdByRank()
+rank()
+toString()
+setPosition()
+}
+
+class Line {
+Position[] positions
+
+put()
+get()
+toString()
+toArray()
+}
+
+class Position {
+Linable linable
+
+setLinable()
+}
+
+interface Linable {
+setPosition()
+getPosition()
+getValue()
+}
+
+interface Sorter {
+load()
+sort()
+getPlan()
+}
+
+class BubbleSorter {
+int[] a
+String plan
+
+load()
+bubbleSort()
+swap()
+sort()
+getPlan()
+}
+
+class Geezer {
+Geezer theGeezer
+Sorter sorter
+
+getTheGeezer()
+setSorter()
+lineUp()
+parsePlan()
+execute()
+}
+
+@enduml

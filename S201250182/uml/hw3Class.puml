@@ -1,0 +1,97 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class BubbleSorter
+class Snake
+class Matrix
+class Position
+interface Linable
+interface Sorter
+class Monster
+class Color
+class BubbleSorter
+
+Snake  o--  Sorter: 聚合 >
+Sorter *-- BubbleSorter: Sorter的一种:
+Snake <-- Matrix: 关联 >
+Matrix <-- Linable: 依赖 >
+Monster o-- Position:组合 >
+Matrix o-- Position: 组合 >
+Monster o-- Linable: Linable的一种 >
+Monster o-- Color: 组合 >
+
+class Monster {
+Color color
+Position position
+int rank
+
+getRank()
+getPosition()
+getValue()
+toString()
+setPosition()
+}
+
+class Matrix {
+Position[] positions
+
+put()
+get()
+toString()
+toArray()
+}
+
+class Position {
+Linable linable
+
+setLinable()
+}
+
+interface Linable {
+setPosition()
+getPosition()
+getValue()
+}
+
+interface Sorter {
+load()
+sort()
+getPlan()
+}
+
+class BubbleSorter {
+int[] a
+String plan
+
+load()
+bubbleSort()
+swap()
+sort()
+getPlan()
+}
+
+class Snake {
+Snake theSnake
+Sorter sorter
+
+getTheSnake()
+setSorter()
+lineUp()
+parsePlan()
+execute()
+}
+
+class Color {
+int r;
+int g;
+int b;
+Set<List<Integer> rgb
+
+setRGB()
+haveSameRGB()
+getR()
+getG()
+getB()
+}
+
+@enduml
